@@ -6,3 +6,11 @@ btnAumentar.addEventListener("click", () => {
     contador++;
     spanNumero.innerText = contador;
 });
+
+// --- ESTO ES LO QUE DEBES AGREGAR AL FINAL ---
+const btnReset = document.getElementById("btn-reset");
+
+btnReset.addEventListener("click", () => {
+    contador = 0;
+    spanNumero.innerText = contador;
+});
